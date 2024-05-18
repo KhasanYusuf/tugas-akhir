@@ -1,0 +1,55 @@
+body {
+    background: #ffffff;
+    font-family: sans-serif;
+    font-family: "Montserrat", sans-serif;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: #900000;
+    font-size: large;
+}
+
+/* Optional: Add a shadow or border to the navbar for better visibility when scrolled */
+.navbar:not(:target):not(:focus-within) {
+    box-shadow: 0 1px 5px #000000;
+}
+.navbar a{
+    text-align: center;   
+    margin-left: 10px;
+    margin-right: 20px;  
+    font-size: 14px; 
+}
+
+.navbar h1{
+    font-size: 40px;
+}
+.navbar-nav .nav-link {
+    color: #ffffff;
+    transition: color 0.5s;
+}
+.navbar-nav .nav-link:hover {
+    color: #ff7e7e;
+}
+.navbar-nav button{
+    color: #ffffff;;
+    background-color: #ffffff;
+    font-size: 14px;
+    border: none;
+    border-radius: 7px;
+    line-height: 30px;
+    width: 100%;
+    padding: 0 8px;
+}
+.navbar-nav button:hover {
+    color: rgb(255, 255, 255);
+}
+.fa{
+    font-size: 30px;
+}
+img{
+    max-width: 25%;
+    margin-right: -300px;
+}
