@@ -36,10 +36,31 @@ class Training extends Controller
         // Calculate accuracy
         $accuracy = Accuracy::score($testLabels, $predictedLabels);
 
+        // Hitung jumlah kelas
+        $classes = array_unique(array_merge($testLabels, $predictedLabels));
+        $numClasses = count($classes);
+
+        // Inisialisasi confusion matrix
+        $confusionMatrix = array_fill(0, $numClasses, array_fill(0, $numClasses, 0));
+
+        // Hitung confusion matrix
+        $confusionMatrix = [];
+        for ($i = 0; $i < count($testLabels); $i++) {
+            $trueClass = array_search($testLabels[$i], $classes);
+            $predictedClass = array_search($predictedLabels[$i], $classes);
+            if (!isset($confusionMatrix[$trueClass][$predictedClass])) {
+                $confusionMatrix[$trueClass][$predictedClass] = 0;
+            }
+            $confusionMatrix[$trueClass][$predictedClass]++;
+        }
+        // dd($confusionMatrix);
+
         // Mengirimkan hasil prediksi dan akurasi ke view
         return view('accuracy', [
             'predictedLabel' => $predictedLabels[0], // Menampilkan hanya prediksi pertama sebagai contoh
             'accuracy' => $accuracy,
+            'classes'=> $classes,
+            'confusionMatrix' => $confusionMatrix,
         ]);
     }
     public function predict(Request $request)
