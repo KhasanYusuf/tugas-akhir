@@ -4,10 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Training;
 
 Route::get('/', function () {
-    return view('home');
-});
-Route::get('/predict', function () {
-    return view('prediction');
+    return view('welcome');
 });
 
 Route::get('/train', [Training::class, 'naiveBayes'])->name('train');

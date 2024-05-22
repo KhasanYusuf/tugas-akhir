@@ -1,0 +1,571 @@
+.home-page {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.home-page .div {
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 1728px;
+    height: 4736px;
+    position: relative;
+}
+
+.home-page .overlap {
+    position: absolute;
+    width: 1728px;
+    height: 987px;
+    top: 0;
+    left: 0;
+}
+
+.home-page .overlap-group {
+    position: absolute;
+    width: 1728px;
+    height: 893px;
+    top: 0;
+    left: 0;
+}
+
+.home-page .rectangle {
+    position: absolute;
+    width: 1728px;
+    height: 813px;
+    top: 0;
+    left: 0;
+}
+
+.home-page .text-wrapper {
+    position: absolute;
+    top: 60px;
+    left: 999px;
+    font-family: "Montserrat", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 15px;
+    letter-spacing: 2.25px;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.home-page .HOME {
+    position: absolute;
+    top: 60px;
+    left: 1446px;
+    font-family: "Montserrat", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 15px;
+    letter-spacing: 2.25px;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.home-page .HOME-2 {
+    left: 1101px;
+    position: absolute;
+    top: 60px;
+    font-family: "Montserrat", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 15px;
+    letter-spacing: 2.25px;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.home-page .HOME-3 {
+    left: 1236px;
+    position: absolute;
+    top: 60px;
+    font-family: "Montserrat", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 15px;
+    letter-spacing: 2.25px;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.home-page .HOME-4 {
+    left: 1366px;
+    position: absolute;
+    top: 60px;
+    font-family: "Montserrat", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 15px;
+    letter-spacing: 2.25px;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.home-page .red-dancer {
+    position: absolute;
+    width: 574px;
+    height: 590px;
+    top: 303px;
+    left: 964px;
+    object-fit: cover;
+}
+
+.home-page .text-wrapper-2 {
+    position: absolute;
+    width: 303px;
+    top: 39px;
+    left: 55px;
+    font-family: "Poppins", Helvetica;
+    font-weight: 800;
+    color: #ffffff;
+    font-size: 40px;
+    letter-spacing: 6px;
+    line-height: normal;
+}
+
+.home-page .group {
+    position: absolute;
+    width: 672px;
+    height: 526px;
+    top: 303px;
+    left: 137px;
+}
+
+.home-page .all-about-wrapper {
+    position: absolute;
+    width: 175px;
+    height: 40px;
+    top: 0;
+    left: 0;
+}
+
+.home-page .all-about {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: "Poppins", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 26px;
+    letter-spacing: 3.9px;
+    line-height: 40px;
+    white-space: nowrap;
+}
+
+.home-page .the-hitz-mana-gement {
+    position: absolute;
+    width: 670px;
+    top: 97px;
+    left: 0;
+    font-family: "Poppins", Helvetica;
+    font-weight: 800;
+    color: #000000;
+    font-size: 80px;
+    letter-spacing: 12px;
+    line-height: 40px;
+}
+
+.home-page .kenali-dan-jelajahi-wrapper {
+    position: absolute;
+    width: 557px;
+    height: 120px;
+    top: 867px;
+    left: 151px;
+}
+
+.home-page .kenali-dan-jelajahi {
+    position: absolute;
+    width: 555px;
+    top: 0;
+    left: 0;
+    font-family: "Montserrat", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 17px;
+    letter-spacing: 2.55px;
+    line-height: 40px;
+}
+
+.home-page .ellipse {
+    position: absolute;
+    width: 491px;
+    height: 26px;
+    top: 947px;
+    left: 1026px;
+    background-color: #1d1c2863;
+    border-radius: 245.5px/13px;
+    filter: blur(20px);
+}
+
+.home-page .overlap-2 {
+    position: absolute;
+    width: 1950px;
+    height: 3263px;
+    top: 1438px;
+    left: -222px;
+}
+
+.home-page .about-us-wrapper {
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    top: 0;
+    left: 1027px;
+}
+
+.home-page .about-us {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: "Poppins", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 32px;
+    letter-spacing: 4.8px;
+    line-height: 40px;
+    white-space: nowrap;
+}
+
+.home-page .div-wrapper {
+    position: absolute;
+    width: 181px;
+    height: 40px;
+    top: 1716px;
+    left: 993px;
+}
+
+.home-page .text-wrapper-3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: "Poppins", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 29px;
+    letter-spacing: 4.35px;
+    line-height: 40px;
+    white-space: nowrap;
+}
+
+.home-page .text-wrapper-4 {
+    position: absolute;
+    top: 301px;
+    left: 935px;
+    font-family: "Poppins", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 29px;
+    letter-spacing: 4.35px;
+    line-height: 40px;
+    white-space: nowrap;
+}
+
+.home-page .img {
+    position: absolute;
+    width: 438px;
+    height: 530px;
+    top: 302px;
+    left: 456px;
+    object-fit: cover;
+}
+
+.home-page .sanggar-hitz {
+    position: absolute;
+    width: 802px;
+    top: 323px;
+    left: 939px;
+    font-family: "Montserrat", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 15px;
+    letter-spacing: 2.25px;
+    line-height: 40px;
+}
+
+.home-page .span {
+    font-weight: 300;
+    letter-spacing: 0.34px;
+}
+
+.home-page .text-wrapper-5 {
+    font-weight: 600;
+    letter-spacing: 0.34px;
+}
+
+.home-page .group-2 {
+    position: absolute;
+    width: 1820px;
+    height: 1278px;
+    top: 1953px;
+    left: 0;
+}
+
+.home-page .lokasi-latihan-wrapper {
+    position: absolute;
+    width: 319px;
+    height: 40px;
+    top: 53px;
+    left: 1188px;
+}
+
+.home-page .lokasi-latihan {
+    position: absolute;
+    width: 317px;
+    top: 0;
+    left: 0;
+    font-family: "Poppins", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 32px;
+    letter-spacing: 4.8px;
+    line-height: 40px;
+}
+
+.home-page .contact-rectangle {
+    position: absolute;
+    width: 1727px;
+    height: 1117px;
+    top: 2580px;
+    left: 4255px;
+}
+
+.home-page .overlap-3 {
+    position: absolute;
+    width: 443px;
+    height: 425px;
+    top: 0;
+    left: 648px;
+}
+
+.home-page .image {
+    position: absolute;
+    width: 443px;
+    height: 421px;
+    top: 0;
+    left: 0;
+}
+
+.home-page .frame {
+    position: absolute;
+    width: 147px;
+    height: 142px;
+    top: 283px;
+    left: 296px;
+    object-fit: cover;
+}
+
+.home-page .setono-pande-kec {
+    position: absolute;
+    width: 630px;
+    top: 127px;
+    left: 1188px;
+    font-family: "Poppins", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 28px;
+    letter-spacing: 4.2px;
+    line-height: normal;
+}
+
+.home-page .overlap-group-wrapper {
+    position: absolute;
+    width: 198px;
+    height: 72px;
+    top: 254px;
+    left: 1188px;
+}
+
+.home-page .overlap-group-2 {
+    position: relative;
+    width: 196px;
+    height: 72px;
+}
+
+.home-page .rectangle-2 {
+    position: absolute;
+    width: 168px;
+    height: 58px;
+    top: 0;
+    left: 15px;
+}
+
+.home-page .open-on-google-map {
+    position: absolute;
+    width: 196px;
+    top: 7px;
+    left: 0;
+    font-family: "Montserrat", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 13px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 40px;
+}
+
+.home-page .image-2 {
+    position: absolute;
+    width: 1728px;
+    height: 2608px;
+    top: 0;
+    left: 222px;
+}
+
+.home-page .group-3 {
+    position: absolute;
+    width: 746px;
+    height: 607px;
+    top: 2656px;
+    left: 243px;
+}
+
+.home-page .overlap-4 {
+    position: absolute;
+    width: 744px;
+    height: 518px;
+    top: 0;
+    left: 0;
+}
+
+.home-page .contact-information {
+    position: absolute;
+    width: 694px;
+    top: 387px;
+    left: 50px;
+    font-family: "Poppins", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 3px;
+    line-height: normal;
+}
+
+.home-page .group-4 {
+    position: absolute;
+    width: 724px;
+    height: 471px;
+    top: 47px;
+    left: 0;
+}
+
+.home-page .overlap-group-3 {
+    position: relative;
+    width: 726px;
+    height: 471px;
+}
+
+.home-page .email-address {
+    position: absolute;
+    width: 726px;
+    height: 471px;
+    top: 0;
+    left: 0;
+}
+
+.home-page .text-wrapper-6 {
+    position: absolute;
+    width: 637px;
+    top: 444px;
+    left: 87px;
+    font-family: "Poppins", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.home-page .vector {
+    position: absolute;
+    width: 25px;
+    height: 22px;
+    top: 447px;
+    left: 50px;
+}
+
+.home-page .overlap-wrapper {
+    position: absolute;
+    width: 456px;
+    height: 462px;
+    top: 0;
+    left: 0;
+}
+
+.home-page .overlap-5 {
+    position: relative;
+    width: 458px;
+    height: 462px;
+}
+
+.home-page .phone-number {
+    position: absolute;
+    width: 458px;
+    height: 461px;
+    top: 0;
+    left: 0;
+}
+
+.home-page .text-wrapper-7 {
+    position: absolute;
+    width: 369px;
+    top: 434px;
+    left: 87px;
+    font-family: "Poppins", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.home-page .vector-2 {
+    top: 434px;
+    left: 50px;
+    position: absolute;
+    width: 25px;
+    height: 28px;
+}
+
+.home-page .group-wrapper {
+    position: absolute;
+    width: 358px;
+    height: 62px;
+    top: 545px;
+    left: 50px;
+}
+
+.home-page .group-5 {
+    position: relative;
+    height: 62px;
+}
+
+.home-page .location {
+    position: absolute;
+    width: 325px;
+    height: 60px;
+    top: 2px;
+    left: 35px;
+}
+
+.home-page .hitz {
+    position: absolute;
+    width: 323px;
+    top: 0;
+    left: 0;
+    font-family: "Poppins", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.home-page .vector-3 {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 25px;
+    height: 28px;
+}
