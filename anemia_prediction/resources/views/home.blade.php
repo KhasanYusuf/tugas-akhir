@@ -16,12 +16,11 @@
 </head>
 
 <body>
-    <form action="{{route('train')}}" method="get"><button type="submit">train dataset</button></form>
-    <a href="/predict">Laman Prediksi</a>
+    <form action="{{route('accuracy')}}" method="get"><button type="submit">train dataset</button></form>
+    <a href="/prediksi">Laman Prediksi</a>
 </body>
 
 </html>
 
 
 @endsection
->>>>>>> e8ce3c66afd80e8b8b2d1f12f32937500209a3c9

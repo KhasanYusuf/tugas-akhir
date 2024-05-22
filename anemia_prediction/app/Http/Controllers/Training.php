@@ -37,7 +37,7 @@ class Training extends Controller
         $accuracy = Accuracy::score($testLabels, $predictedLabels);
 
         // Mengirimkan hasil prediksi dan akurasi ke view
-        return view('runTraining', [
+        return view('accuracy', [
             'predictedLabel' => $predictedLabels[0], // Menampilkan hanya prediksi pertama sebagai contoh
             'accuracy' => $accuracy,
         ]);
@@ -77,7 +77,7 @@ class Training extends Controller
         if ($predictedLabel[0]) {
             $result = "Anemia";
         } else {
-            $result = "Not Anemia";
+            $result = "Tidak Anemia";
         }
         
         
